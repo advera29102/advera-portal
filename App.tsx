@@ -41,7 +41,7 @@ const App: React.FC = () => {
             <a href="#roadmap" className="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900 rounded px-2 py-1">90-Day Plan</a>
             {/* <a href="#audit" className="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900 rounded px-2 py-1">Free Audit</a> */}
           </nav>
-          <a href="https://api.leadconnectorhq.com/widget/booking/pmRAcHqWp5bqU4pgPMKh" target="_blank" rel="noopener noreferrer" className="px-6 py-2.5 bg-indigo-600 text-white rounded-full text-sm font-bold shadow-xl shadow-indigo-500/20 hover:scale-105 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900" aria-label="Get started">
+          <a href="https://api.leadconnectorhq.com/widget/booking/sZvRXRTlqYb7XltXhPZ6" target="_blank" rel="noopener noreferrer" className="px-6 py-2.5 bg-indigo-600 text-white rounded-full text-sm font-bold shadow-xl shadow-indigo-500/20 hover:scale-105 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900" aria-label="Get started">
             Get Started
           </a>
         </div>
@@ -91,7 +91,7 @@ const App: React.FC = () => {
               </p>
             </div>
             <a
-              href="https://api.leadconnectorhq.com/widget/booking/pmRAcHqWp5bqU4pgPMKh"
+              href="https://api.leadconnectorhq.com/widget/booking/sZvRXRTlqYb7XltXhPZ6"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-4 bg-white text-indigo-900 font-black rounded-2xl text-sm shadow-xl hover:scale-105 transition-all text-center block focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
@@ -223,7 +223,7 @@ const App: React.FC = () => {
               Stop being invisible. Book a strategy call and discover how the 7 Pillars can make your business the default AI recommendation.
             </p>
             <a
-              href="https://api.leadconnectorhq.com/widget/booking/pmRAcHqWp5bqU4pgPMKh"
+              href="https://api.leadconnectorhq.com/widget/booking/sZvRXRTlqYb7XltXhPZ6"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-12 py-5 bg-indigo-600 text-white font-black rounded-2xl text-lg shadow-2xl shadow-indigo-500/30 hover:scale-105 hover:bg-indigo-700 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900"
