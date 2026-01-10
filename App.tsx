@@ -206,6 +206,29 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* Final CTA Section */}
+      <section className="py-24 px-6 lg:px-12 mt-20">
+        <div className="max-w-4xl mx-auto text-center glass rounded-[3rem] p-12 sm:p-16 border border-white/10 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-indigo-600/20 to-purple-600/20 blur-3xl"></div>
+          <div className="relative z-10">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-6 leading-tight">
+              Ready to Dominate AI Search?
+            </h2>
+            <p className="text-lg text-slate-400 mb-10 max-w-2xl mx-auto">
+              Stop being invisible. Book a strategy call and discover how the 7 Pillars can make your business the default AI recommendation.
+            </p>
+            <a
+              href="https://api.leadconnectorhq.com/widget/booking/pmRAcHqWp5bqU4pgPMKh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-12 py-5 bg-indigo-600 text-white font-black rounded-2xl text-lg shadow-2xl shadow-indigo-500/30 hover:scale-105 hover:bg-indigo-700 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900"
+            >
+              Book Your Strategy Call
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-20 px-6 lg:px-12 border-t border-white/5 mt-20" role="contentinfo">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
