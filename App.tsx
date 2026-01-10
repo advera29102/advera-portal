@@ -90,9 +90,14 @@ const App: React.FC = () => {
                 We don't just follow the steps; we automate the entire sequence using GoHighLevel to ensure peak performance 24/7.
               </p>
             </div>
-            <button className="w-full py-4 bg-white text-indigo-900 font-black rounded-2xl text-sm shadow-xl">
-              Explore Automation
-            </button>
+            <a
+              href="https://api.leadconnectorhq.com/widget/booking/pmRAcHqWp5bqU4pgPMKh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full py-4 bg-white text-indigo-900 font-black rounded-2xl text-sm shadow-xl hover:scale-105 transition-all text-center block focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
+            >
+              Book a Call
+            </a>
           </div>
         </div>
       </section>
