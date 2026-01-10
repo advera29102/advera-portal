@@ -1,0 +1,6 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded square background with indigo color -->
+  <rect width="512" height="512" rx="96" fill="#4F46E5"/>
+  <!-- Lightning bolt in white -->
+  <path d="M288 128L192 288H256L224 384L320 224H256L288 128Z" fill="white" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
