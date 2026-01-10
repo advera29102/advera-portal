@@ -75,8 +75,8 @@ export const STEPS: RankingStep[] = [
 ];
 
 export const ROADMAP = [
-  { days: "1-7", title: "Foundation", items: ["GBP Audit", "NAP Verification", "Baseline AI Check"] },
-  { days: "8-14", title: "Social Proof", items: ["Review Request System", "Profile Expansion", "Reputation Cleanup"] },
-  { days: "15-30", title: "Technical", items: ["Schema Injection", "Site Updates", "NAP Correction"] },
-  { days: "31-45", title: "Content", items: ["Case Study Identification", "Testimonial Publishing", "FAQ Building"] }
+  { days: "1-15", title: "Foundation", items: ["GBP Audit & Optimization", "NAP Verification", "Baseline AI Check", "Review System Setup"] },
+  { days: "16-30", title: "Technical Setup", items: ["Schema Injection", "Site Updates", "NAP Correction", "Profile Expansion"] },
+  { days: "31-60", title: "Content & Authority", items: ["Case Studies", "Testimonials", "FAQ Building", "Local PR Outreach"] },
+  { days: "61-90", title: "Optimization & Scale", items: ["Monthly AI Monitoring", "Competitor Analysis", "Performance Tracking", "Continuous Refinement"] }
 ];
