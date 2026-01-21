@@ -91,7 +91,7 @@ const App: React.FC = () => {
               </p>
             </div>
             <a
-              href="https://api.leadconnectorhq.com/widget/booking/sZvRXRTlqYb7XltXhPZ6"
+              href="https://cal.com/david-jeffries-afl6j5/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-4 bg-white text-indigo-900 font-black rounded-2xl text-sm shadow-xl hover:scale-105 transition-all text-center block focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
