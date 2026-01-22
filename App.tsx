@@ -87,7 +87,7 @@ const App: React.FC = () => {
             <div>
               <h3 className="text-2xl font-black mb-4">The Advera Edge</h3>
               <p className="text-indigo-100 text-sm leading-relaxed mb-8 opacity-80">
-                We don't just follow the steps; we automate the entire sequence using GoHighLevel to ensure peak performance 24/7.
+                We don't just follow the steps; we automate the entire sequence to ensure peak performance 24/7.
               </p>
             </div>
             <a
