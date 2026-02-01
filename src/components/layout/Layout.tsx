@@ -2,7 +2,6 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
-import ExitIntentPopup from '../features/ExitIntentPopup';
 import MobileCTABar from '../features/MobileCTABar';
 
 const Layout: React.FC = () => {
@@ -16,7 +15,6 @@ const Layout: React.FC = () => {
 
       <Footer />
 
-      <ExitIntentPopup />
       <MobileCTABar />
     </div>
   );
