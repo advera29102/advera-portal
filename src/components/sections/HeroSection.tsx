@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
           While you're dumping money into Ads, your competitors are showing up first when people ask AI where to go.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+        <div className="hidden sm:flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <Button variant="primary" size="lg" href="https://cal.com/david-jeffries-afl6j5/30min" external className="w-full sm:w-auto">
             Show Me Where I Rank
             <i className="fa-solid fa-arrow-right ml-2 text-sm" />
