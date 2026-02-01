@@ -1,5 +1,4 @@
-
-import { RankingStep, StepStatus } from './types';
+import { RankingStep, StepStatus } from '../types';
 
 export const STEPS: RankingStep[] = [
   {
@@ -74,9 +73,10 @@ export const STEPS: RankingStep[] = [
   }
 ];
 
+// Updated to 60-day roadmap (6 weeks)
 export const ROADMAP = [
-  { days: "1-15", title: "Foundation", items: ["GBP Audit & Optimization", "NAP Verification", "Baseline AI Check", "Review System Setup"] },
-  { days: "16-30", title: "Technical Setup", items: ["Schema Injection", "Site Updates", "NAP Correction", "Profile Expansion"] },
-  { days: "31-60", title: "Content & Authority", items: ["Case Studies", "Testimonials", "FAQ Building", "Local PR Outreach"] },
-  { days: "61-90", title: "Optimization & Scale", items: ["Monthly AI Monitoring", "Competitor Analysis", "Performance Tracking", "Continuous Refinement"] }
+  { days: "Week 1", title: "Foundation", items: ["GBP Audit & Optimization", "NAP Verification", "Baseline AI Check", "Review System Setup"] },
+  { days: "Week 2", title: "Technical Setup", items: ["Schema Injection", "Site Updates", "NAP Correction", "Profile Expansion"] },
+  { days: "Week 3-4", title: "Content & Authority", items: ["Case Studies", "Testimonials", "FAQ Building", "Local PR Outreach"] },
+  { days: "Week 5-6", title: "Optimization & Scale", items: ["Monthly AI Monitoring", "Competitor Analysis", "Performance Tracking", "Continuous Refinement"] }
 ];

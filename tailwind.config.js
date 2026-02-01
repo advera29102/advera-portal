@@ -4,10 +4,7 @@ export default {
     "./index.html",
     "./index.tsx",
     "./App.tsx",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./services/**/*.{js,ts,jsx,tsx}",
-    "./constants.tsx",
-    "./types.ts",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -16,6 +13,8 @@ export default {
         'in': 'fadeIn 0.5s ease-in',
         'fade-in': 'fadeIn 0.5s ease-in',
         'slide-in-from-bottom-4': 'slideInFromBottom 0.5s ease-out',
+        'pulse-glow': 'pulseGlow 3s ease-in-out infinite',
+        'gradient-shift': 'gradientShift 8s ease infinite',
       },
       keyframes: {
         float: {
@@ -29,6 +28,14 @@ export default {
         slideInFromBottom: {
           '0%': { transform: 'translateY(16px)', opacity: '0' },
           '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        pulseGlow: {
+          '0%, 100%': { opacity: '0.4' },
+          '50%': { opacity: '0.7' },
+        },
+        gradientShift: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
         },
       },
     },
