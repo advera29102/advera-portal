@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSection from '../components/sections/HeroSection';
 import ProblemSection from '../components/sections/ProblemSection';
 import SolutionSection from '../components/sections/SolutionSection';
+import AIReadinessSection from '../components/sections/AIReadinessSection';
 import PricingPreviewSection from '../components/sections/PricingPreviewSection';
 import SocialProofSection from '../components/sections/SocialProofSection';
 import TimelineSection from '../components/sections/TimelineSection';
@@ -14,6 +15,7 @@ const HomePage: React.FC = () => {
       <HeroSection />
       <ProblemSection />
       <SolutionSection />
+      <AIReadinessSection />
       <PricingPreviewSection />
       <SocialProofSection />
       <TimelineSection />

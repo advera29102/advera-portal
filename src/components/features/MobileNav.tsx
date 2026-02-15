@@ -42,6 +42,15 @@ const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
               </li>
               <li>
                 <Link
+                  to="/ai-readiness"
+                  onClick={onClose}
+                  className="block px-4 py-4 text-neutral-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors min-h-[52px] flex items-center touch-manipulation"
+                >
+                  AI Readiness
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/pricing"
                   onClick={onClose}
                   className="block px-4 py-4 text-neutral-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors min-h-[52px] flex items-center touch-manipulation"
