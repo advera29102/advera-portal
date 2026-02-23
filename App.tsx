@@ -5,7 +5,6 @@ import HomePage from './src/pages/HomePage';
 
 // Lazy load pages for better performance
 const PricingPage = lazy(() => import('./src/pages/PricingPage'));
-const AIReadinessPage = lazy(() => import('./src/pages/AIReadinessPage'));
 
 // Loading fallback component
 const PageLoader = () => (
@@ -28,14 +27,6 @@ const App: React.FC = () => {
             element={
               <Suspense fallback={<PageLoader />}>
                 <PricingPage />
-              </Suspense>
-            }
-          />
-          <Route
-            path="ai-readiness"
-            element={
-              <Suspense fallback={<PageLoader />}>
-                <AIReadinessPage />
               </Suspense>
             }
           />
